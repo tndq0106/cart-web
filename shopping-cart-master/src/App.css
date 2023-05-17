@@ -1,0 +1,41 @@
+.space {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ant-popover-inner {
+  width: 26.4rem;
+}
+
+.ant-popover-inner .ant-popover-title {
+  text-align: center;
+}
+
+.ant-popover-inner .ant-row {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.ant-popover-inner .ant-row::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=App.css.map */
